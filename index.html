@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Animais - Bem-vindo ao ZOO do CIGS!</title>
+    
+    <!-- CDN do Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilo personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Barra de navegação -->
+    <header class="bg-military text-white py-3">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+            <div class="logo-container mb-3">
+                <img src="images/logo.png" alt="Logo do Zoo" class="logo img-fluid" style="max-width: 150px;">
+            </div>
+            <div class="welcome-text text-center">
+                <h1 class="display-5">Bem-vindo ao Zoo do CIGS!</h1>
+                <p class="lead">Explore os diferentes animais da selva amazônica!</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Catálogo de Animais -->
+    <section id="catalogo" class="container py-5">
+        <div class="row">
+            <!-- Card do Leão -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm border-military">
+                    <img src="images/onça.jpg" alt="Onça" class="card-img-top" style="height: 300px; object-fit: cover;">
+                    <div class="card-body">
+                        <h2 class="card-title">Mamífero - Onça</h2>
+                        <p><strong>Habitat:</strong> Amazônia</p>
+                        <p><strong>Alimentação:</strong> Carnívoro</p>
+                        <p><strong>Curiosidade:</strong> A onça-pintada (Panthera onca) é o maior felino das Américas, o terceiro maior felino do mundo, atrás apenas do tigre (Panthera tigris) e do leão (Panthera leo)..</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card da Jabuti -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm border-military">
+                    <img src="images/jabuti.jpg" alt="jabuti" class="card-img-top" style="height: 300px; object-fit: cover;">
+                    <div class="card-body">
+                        <h2 class="card-title">Réptil - Jabuti</h2>
+                        <p><strong>Habitat:</strong> Águas e Terras</p>
+                        <p><strong>Alimentação:</strong> Herbívoro</p>
+                        <p><strong>Curiosidade:</strong> Tartarugas podem viver até 150 anos!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card do Tucano -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm border-military">
+                    <img src="images/tucano.jpg" alt="Tucano" class="card-img-top" style="height: 300px; object-fit: cover;">
+                    <div class="card-body">
+                        <h2 class="card-title">Ave - Tucano</h2>
+                        <p><strong>Habitat:</strong> Florestas tropicais</p>
+                        <p><strong>Alimentação:</strong> Frugívoro</p>
+                        <p><strong>Curiosidade:</strong> O tucano é famoso por seu grande bico colorido.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card do Macaco -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm border-military">
+                    <img src="images/macaco.jpg" alt="Macaco" class="card-img-top" style="height: 300px; object-fit: cover;">
+                    <div class="card-body">
+                        <h2 class="card-title">Mamífero - Macaco</h2>
+                        <p><strong>Habitat:</strong> Floresta tropical</p>
+                        <p><strong>Alimentação:</strong> Omnívoro</p>
+                        <p><strong>Curiosidade:</strong> Macacos são conhecidos por sua inteligência e habilidades sociais.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card da Sucuri -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm border-military">
+                    <img src="images/sucuri.jpg" alt="Sucuri" class="card-img-top" style="height: 300px; object-fit: cover;">
+                    <div class="card-body">
+                        <h2 class="card-title">Réptil - Sucuri</h2>
+                        <p><strong>Habitat:</strong> Rios e pântanos</p>
+                        <p><strong>Alimentação:</strong> Carnívoro</p>
+                        <p><strong>Curiosidade:</strong> A anaconda é uma das serpentes mais pesadas do mundo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card do Arara -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm border-military">
+                    <img src="images/arara.jpg" alt="Arara" class="card-img-top" style="height: 300px; object-fit: cover;">
+                    <div class="card-body">
+                        <h2 class="card-title">Ave - Arara</h2>
+                        <p><strong>Habitat:</strong> Floresta tropical</p>
+                        <p><strong>Alimentação:</strong> Frutas e sementes</p>
+                        <p><strong>Curiosidade:</strong> As araras são conhecidas por suas cores vibrantes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

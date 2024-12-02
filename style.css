@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2c6f2f; /* Verde militar brasileiro */
+}
+
+header .logo-container img {
+    max-width: 150px;
+}
+
+.welcome-text h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.welcome-text p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+    background-color: #c1c1c1; /* Cor mais neutra para os cards */
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-body {
+    background-color: #e5e5e5;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.border-military {
+    border: 2px solid #2c6f2f; /* Cor verde do exército brasileiro */
+}
+
+.bg-military {
+    background-color: #2c6f2f; /* Cor de fundo do header */
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 300px;
+}
+/* Ajustes para dispositivos móveis */
+@media (max-width: 767px) {
+    /* Reduzindo o tamanho da logo em telas pequenas */
+    .logo-container img {
+        max-width: 120px;
+    }
+
+    /* Ajustando o título de boas-vindas para dispositivos móveis */
+    .welcome-text h1 {
+        font-size: 1.5rem;  /* Menor tamanho no celular */
+    }
+
+    .welcome-text p {
+        font-size: 1rem;  /* Ajusta o texto de introdução */
+    }
+
+    /* Ajustando os cards para se empilharem em telas pequenas */
+    .col-md-4 {
+        flex: 0 0 100%;  /* Faz as colunas ocuparem 100% da largura */
+        max-width: 100%;
+    }
+
+    /* Alterando o padding do header para telas pequenas */
+    header {
+        padding: 10px 0;
+    }
+
+    /* Ajustando a imagem nos cards para não distorcer */
+    .card-img-top {
+        height: 200px;  /* Reduzindo a altura das imagens nos cards */
+        object-fit: cover;
+    }
+}
